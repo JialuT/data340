@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How far have we come in the Renewable Energy journey? </title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+
+  .banner {
+    background: url('/Users/Kristatao/Desktop/data340/project/energy.jpg') no-repeat center center/cover;
+    height: 400px; /* Adjust as per your requirement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .banner h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    color: #444;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  iframe {
+    width: 100%;
+    border: none;
+  }
+
+  .grid-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .grid-2 > div {
+    flex: 1;
+    min-width: 300px; /* Adjust as per your requirement */
+  }
+
+  .description {
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 40px;
+  }
+
+  .small-img {
+    width: 50%; /* Adjust as per your requirement */
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <h1>How far have we come in the Renewable Energy journey?</h1>
+</div>
+
+<div class="container">
+  <!-- Section for total consumption -->
+  <section>
+    <h2>Total Energy Consumption</h2>
+    <iframe src="/Users/Kristatao/Desktop/data340/project/totalConsumption.html" height="500"></iframe>
+    <div class="description">
+      <p>The intensity of the colors on this chart corresponds directly to the amount of energy consumed: more vibrant and deeper hues indicate higher energy usage, while lighter shades represent lower consumption levels. This visual gradient provides a clear, at-a-glance indication of energy consumption patterns, with the brightest colors highlighting areas of peak usage.</p>
+    </div>
+  </section>
+
+  <!-- Section for download-1.png and download-2.png -->
+  <section>
+    <h2>Energy Consumption Over Time</h2>
+    <div class="grid-2">
+      <div>
+        <img src="/Users/Kristatao/Desktop/data340/project/download-1.png" alt="Energy Consumption Graph 1">
+        <div class="description">
+          <p>From a glance, the graph indicates that nuclear energy consumption has seen significant growth over the time period, with a notable increase from around the late 1970s.</p>
+        </div>
+      </div>
+      <div>
+        <img src="/Users/Kristatao/Desktop/data340/project/download-2.png" alt="Energy Consumption Graph 2">
+        <div class="description">
+          <p>Renewable energy consumption also grows but remains considerably less in magnitude compared to nuclear energy until it shows a sharp increase around 2020.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for download-3.png -->
+  <section>
+    <h2>Growth Rate of Energy Consumption</h2>
+    <div class="small-img">
+      <img src="/Users/Kristatao/Desktop/data340/project/download-3.png" alt="Growth Rate of Energy Consumption">
+    </div>
+    <div class="description">
+      <p>The graph shows that renewable energy growth rates have a broader and possibly higher range of values than nuclear energy, which appears to have a narrower range of growth rates. Primary energy, as the aggregation of all energy types, shows a wide range of growth rates with a lower peak in density, suggesting that it includes both stable and highly variable sources of energy.</p>
+    </div>
+  </section>
+
+ <!-- Section for bar graph -->
+  <section>
+    <h2>Renewable Energy Types Comparison</h2>
+    <iframe src="/Users/Kristatao/Desktop/data340/project/bar_graph.html" height="500"></iframe>
+    <div class="description">
+      <p>The proportion of solar energy within the renewable energy sector has displayed a consistent upward trajectory, capturing an expanding segment of the total renewable energy mix. This trend underscores the accelerating adoption of solar technologies. Meanwhile, wind energy's contribution to the renewable portfolio also exhibits an upward trend, though its rate of increase appears to stabilize in the latter part of the observation period. The 'Renewable Power' category, including geothermal, biomass, and other forms of renewable energy not individually specified, constitutes the most substantial share of renewable energy consumption. This suggests that it either represents a particularly prevalent form of renewable energy or serves as an aggregate measure that encapsulates the comprehensive spectrum of renewable sources, inclusive of solar and wind.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 DATA 340 Project; Source data provided by the Energy Institute.</p>
+  </footer>
+</div>
+
+</body>
+</html>
